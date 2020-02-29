@@ -1,0 +1,13 @@
+.content{
+    margin-left: 7.2rem;
+    margin-right: 7.2rem; 
+    display: flex;
+    width: 144rem;
+    align-items: center;
+    justify-content: space-between;
+   
+    & > *{
+        padding-top: 4.75rem;
+        padding-bottom: 4.75rem;
+    }
+}

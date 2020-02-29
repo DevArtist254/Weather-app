@@ -1,0 +1,19 @@
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    //10/16px * 100 =
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    position: relative;
+    height: 100vh;
+  }

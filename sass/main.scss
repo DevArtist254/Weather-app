@@ -1,0 +1,18 @@
+//font-family: 'Odibee Sans', cursive;
+//font-family: 'Pacifico', cursive;
+@import './abstracts/var.scss';
+@import './abstracts/mixin.scss';
+
+@import './base/base.scss';
+@import './base/anime.scss';
+@import './base/typo.scss';
+
+@import './components/btn.scss';
+@import './components/popup.scss';
+@import './components/svg.scss';
+@import './components/bg-video.scss';
+@import './components/weather.scss';
+@import './components/form.scss';
+
+@import './layout/index.scss';
+@import './layout/btn-l.scss';

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans|Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+            <source src="./img/v.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header class="content">
+        <div>
+            <time id="time">
+                <span id="hours">06</span>
+                <br>
+                <span id="minutes">01</span>
+            </time>
+        </div>
+        <div>
+            <h1 class="intro">Weather locator</h1>
+        </div>
+        <div>
+            <time class="day">
+                01
+            </time>
+            <br>
+            <time id="day">
+                monday
+            </time>
+        </div>
+    </header>
+    <div class="content2">
+        <div>
+            <svg class="weather__icon">
+                <use xlink:href="./svg/sprite.svg#icon-cloud-download" ></use>
+            </svg>
+        </div>
+        <div>
+            <button >
+                 <a class="btn-popup" href="#pWa">click here</a>
+            </button>
+    </div>
+        <br>
+        <div>
+            <q class="quote">
+                all your Weather needs in one place
+            </q>
+        </div>
+    </div>
+    <div id="pWa">
+        <div class="popup">
+            <div class="popup__left">
+                <div class="popup__left-content">
+                    <form action="get" class="form">
+                        <h2 class="form__header">
+                            Enter The Location Where You Need The Weather 
+                        </h2>
+                        <input type="text" placeholder="city" class="form__input">
+                        <br>
+                        <button class="btn-popup" id="submit">submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="popup__right">
+                <div class="popup__right-content">
+                    <div class="weatherContent">
+                        <span class="weatherContent__header">
+                            Nairobi
+                        </span>
+                        <ul class="weatherContent__list">
+                            <li class="weatherContent__items">Todays Weather is Heavy Rains</li>
+                            <li class="weatherContent__items">
+                                <div class="windspeed">
+                                    <svg class="windspeed__icon">
+                                        <use xlink:href='svg/sprite.svg#icon-cloud-wind'></use>
+                                    </svg>
+                                    <span class="windspeed__title">windspeed 22 mph</span>
+                                </div>
+                            </li>
+                            <li class="weatherContent__items">
+                                <div class="temp">
+                                    <span class="temp__min">
+                                        <svg class="temp__min-icon">
+                                            <use xlink:href='svg/sprite.svg#icon-thermometer-quarter'></use>
+                                        </svg>
+                                      min-temp 23 centigrades
+                                    </span>
+                                    <span class="temp__max">
+                                        <svg class="temp__max-icon">
+                                            <use xlink:href='svg/sprite.svg#icon-thermometer-half'></use>
+                                        </svg>
+                                      max-temp 23 centigrades
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="weatherContent__items">
+                                <div class="probablity">
+                                   A 77 % Chance
+                                </div>
+                            </li>
+                        </ul> 
+                        
+                        <svg class="weatherContent__icon">
+                            <use xlink:href='svg/sprite.svg#icon-spinner2'></use>
+                        </svg>
+
+                    </div>
+                    <a class="popup__right-close" href="#index.html">
+                        <svg class="weather__home">
+                            <use xlink:href='svg/sprite.svg#icon-home'></use>
+                        </svg>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
+<!--
+                       
+-->

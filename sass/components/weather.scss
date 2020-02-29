@@ -1,0 +1,55 @@
+.weatherContent{
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    &__header{
+        font-size: 7rem;
+        margin-bottom: 12rem;
+        @include bgText;
+        font-family: $fam-theme-2;
+        text-transform: uppercase;
+    }
+    &__list{
+    list-style: none;
+    text-align: center;
+    margin-top: -5rem;
+    }
+    &__items{
+        font-size: 2rem;
+        font-family: $fam-theme-1;
+        color: $color-theme-1;
+    }
+    &__icon{
+        @include iconSize;
+        fill: black;
+        //transition: all 5s;
+        animation: rotate 1.5s infinite linear; 
+    }
+}
+.windspeed{
+
+    &__icon{
+        @include iconSize;
+    }
+}
+
+.temp{
+
+    &__min-icon{
+        @include iconSize;
+        fill: $color-theme-1;
+    }
+
+    &__max-icon{
+        @include iconSize;
+        fill: $danger;
+    }
+}
+
+.probablity{
+    color: $danger;
+}

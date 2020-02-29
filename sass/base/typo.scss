@@ -1,0 +1,20 @@
+.intro ,#hours , #minutes, #day , .day{
+    font-family: $fam-theme-1;
+    font-weight: 300;
+    letter-spacing: .5rem;
+    @include bgText;
+}
+.intro{
+    font-size: 12rem;
+}
+#hours , #minutes, #day , .day{
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+.quote{
+    color: $color-theme-1;
+    font-family: $fam-theme-2;
+    font-weight: 300;
+    font-size: 2rem;
+}
