@@ -1,0 +1,30 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "weather application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvolutionDesign/weather-app.git"
+  },
+  "author": "voke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvolutionDesign/weather-app/issues"
+  },
+  "homepage": "https://github.com/EvolutionDesign/weather-app#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "node-sass": "^4.13.1",
+    "parcel": "^1.12.4"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.8.7",
+    "autoprefixer": "^9.7.4",
+    "axios": "^0.19.2"
+  }
+}
